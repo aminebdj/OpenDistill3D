@@ -10,18 +10,6 @@
 <sup>1</sup>Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI) <sup>2</sup>Aalto University <sup>3</sup>Australian National University <sup>4</sup>Linköping University
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <br>
 
 
@@ -59,7 +47,8 @@ classes. We validate the efficacy of the proposed approach via compre-
 hensive experiments on various splits of the ScanNet200 dataset, show-
 casing superior performance in continual learning and unknown class
 retrieval compared to the state-of-the-art. 
-![architecture]()
+
+![architecture](./docs/arch.pdf)
 
 <div align="center">
 
