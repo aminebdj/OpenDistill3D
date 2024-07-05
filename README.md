@@ -67,6 +67,15 @@ sh scripts/train/<SPLIT_ID>/opendistill3d.sh
 ```
 The evaluation results throughout the training will be stored in `./saved/<EXPERIMENT_NAME>/<TASK_ID>/ow_results/<EPOCH>_ow_results.yml`
 
+## Download trained models and data
+<ul>
+  <li>Use <a href="https://mbzuaiac-my.sharepoint.com/:u:/g/personal/mohamed_boudjoghra_mbzuai_ac_ae/EYljqtg_3ShMvV2Dm4uE1l8BofmaXhZWlDHryhUTU6-ocQ?e=SbfVG4">this link</a> for the checkpoints to reproduce our results in Table 1 in the paper.</li>
+  <li>Use <a href="https://mbzuaiac-my.sharepoint.com/:u:/g/personal/mohamed_boudjoghra_mbzuai_ac_ae/EQ6sVhTw8ddNsi2_IwG1U4YBRZzSfuiQeJH1un5zLIu88w?e=XbQrAI">this link</a> for the checkpoints to reproduce our results in Table 7 in the paper.</li>
+  <li>Use <a href="https://mbzuaiac-my.sharepoint.com/:u:/g/personal/mohamed_boudjoghra_mbzuai_ac_ae/EU06GlcxC6JLhTQzdRXIdHYBnLD2NNJXMGKDx6y0Gvy2WQ?e=804ZdD">this link</a> to download the ScanNet200 sampled points used for training models in Table 7 in the paper.</li>
+
+</ul>
+
+
 ## Evaluation
 `<TASK_ID>` takes the following values `task1`, `task2`, or `task3`
 ```
