@@ -60,7 +60,18 @@ retrieval compared to the state-of-the-art.
 
 Kindly check [Installation guide](./docs/Installation.md) on how to setup the Conda environment and how to preprocess ScanNet200 dataset.
 
+## Training
+`<SPLIT_ID>` takes the following values `A`, `B`, or `C`.
+```
+sh scripts/train/<SPLIT_ID>/opendistill3d.sh
+```
+The evaluation results throughout the training will be stored in `./saved/<EXPERIMENT_NAME>/<TASK_ID>/ow_results/<EPOCH>_ow_results.yml`
 
+## Evaluation
+`<TASK_ID>` takes the following values `task1`, `task2`, or `task3`
+```
+sh evaluate.sh <SPLIT_ID> <TASK_ID> <CHECKPOINT_PATH>
+```
 
 ## BibTeX :pray:
 ```
