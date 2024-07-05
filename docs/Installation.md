@@ -77,6 +77,7 @@ pip install pycocotools==2.0.7
 pip install seaborn 
 pip install cloudpickle==2.1.0
 
+cd ..
 git clone https://github.com/NVIDIA/MinkowskiEngine.git
 cd MinkowskiEngine
 python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openblas
