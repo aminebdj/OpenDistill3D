@@ -1,0 +1,36 @@
+# @package _group_
+_target_: models.criterion.SetCriterion
+train_is_true: ${general.train_mode}
+num_classes: ${general.num_targets}
+eos_coef: 0.1
+losses:
+  - "labels"
+  - "masks"
+num_points: ${matcher.num_points}
+oversample_ratio: 3.0
+importance_sample_ratio: 0.75
+class_weights: -1
+num_querries: ${model.mask3d.num_queries}
+hidden_dim: ${model.mask3d.hidden_dim}
+clustering_start_iter: ${general.clustering_start_iter}
+clustering_update_mu_iter: ${general.clustering_update_mu_iter}
+enable_baseline_clustering: ${general.enable_baseline_clustering}
+enable_multiple_stage_clustering: ${general.enable_multiple_stage_clustering}
+clustering_momentum: ${general.clustering_momentum}
+store_size: ${general.store_size}
+OW_task: ${general.OW_task}
+split: ${general.split}
+train_oracle: ${general.train_oracle}
+save_dir: ${general.save_dir}
+margin: ${general.margin}
+finetune: ${general.finetune}
+threshold_weights: ${general.threshold_weights}load
+use_weight_func: ${general.use_weight_func}
+use_moving_threshold: ${general.use_moving_threshold}
+shift: ${general.shift}
+scale: ${general.scale}
+use_scores_AL: ${general.use_scores_AL}
+use_mask_extractor: ${general.use_mask_extractor}
+rescale_unk: ${general.rescale_unk}
+weight_func_scale: ${general.weight_func_scale}
+pretrained_dataset: ${general.pretrained_dataset}
