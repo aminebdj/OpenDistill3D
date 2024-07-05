@@ -58,7 +58,8 @@ retrieval compared to the state-of-the-art.
 
 ## Installation guide
 
-Kindly check [Installation guide](./Installation.md) on how to setup the Conda environment and how to preprocess ScanNet200 dataset.
+Kindly check [Installation guide](./docs/Installation.md) on how to setup the Conda environment and how to preprocess ScanNet200 dataset.
+
 
 
 ## BibTeX :pray:
