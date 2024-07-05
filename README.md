@@ -1,7 +1,6 @@
 <div align="center">
  
-## OpenDistill3D: Open-World 3D Instance Segmentation with Unified Self-Distillation for Continual Learning and Unknown Class Discovery 
-##  (ECCV 2024)
+## OpenDistill3D: Open-World 3D Instance Segmentation with Unified Self-Distillation for Continual Learning and Unknown Class Discovery <p> (ECCV 2024) </p> 
 
 </div>
 
