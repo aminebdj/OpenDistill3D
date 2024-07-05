@@ -1,6 +1,6 @@
 <div align="center">
  
-## 3D Indoor Instance Segmentation in an Open-World (NeurIPS 2023)
+## OpenDistill3D: Open-World 3D Instance Segmentation with Unified Self-Distillation for Continual Learning and Unknown Class Discovery (<b>ECCV 2024</b>)
 
 </div>
 
