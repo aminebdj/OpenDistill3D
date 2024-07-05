@@ -48,7 +48,7 @@ hensive experiments on various splits of the ScanNet200 dataset, show-
 casing superior performance in continual learning and unknown class
 retrieval compared to the state-of-the-art. 
 
-![architecture](./docs/arch.pdf)
+![architecture](./docs/arch.png)
 
 <div align="center">
 
