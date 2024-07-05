@@ -1,7 +1,8 @@
 ### Download pre-trained models
 We provide in <a href="https://mbzuaiac-my.sharepoint.com/:u:/g/personal/mohamed_boudjoghra_mbzuai_ac_ae/EfQ13YdGk_tIhT6dfxTNiPEBu6YyfdahULbORc8K3643tA?e=ByNBQ4">this link</a> the closed-setting pre trained Mask3D model to initialize the teacher models for the three splits.
 
-Download the `checkpoints.zip` and place them inside `./mask_extractor`, the code structure should be as follows
+Download the `checkpoints.zip` and place them inside `./mask_extractor`. The code structure should be as follows
+<b>NB:</b> models in `checkpoints.zip` follow Mask3D architecture and are trained in a closed setting manner on the classes known in Task1.
 
 
 ```
